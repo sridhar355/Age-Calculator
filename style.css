@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .container {
+    background-color: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    max-width: 40rem;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    /* margin-top: 0; 
+    margin-bottom: 20px; */
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: 1px solid #d6d5d5;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 20rem;
+  }
+  
+  button {
+    background-color: #027bfc;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-top:2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #0161c7;
+  }
+  
+  
+  
